@@ -17,6 +17,6 @@ function calcula($var1,$var2){
 
 }
 
-calcula($var1,$var2);
+calcula($var,$var2);
 
 ?>
