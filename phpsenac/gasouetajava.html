@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Função Qual Combustível Compensa</title>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 class="display-4">Função Qual Combustível Compensa</h1>
+        <p class="lead">Aqui você irá incluir os valores para a descobrir qual combustível compensa</p>
+        <hr>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 offset-2">
+                <h2 style="text-align: center; color: blue;" id="titulo">Etanol ou Gasolina?</h2>
+                    <hr>
+                <form name="form" id="form">
+                    <div class="form-group">
+                        <label for="numero1">Coloque o valor do Etanol</label>
+
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">R$</div>
+                            <input type="text" name="v1" class="form-control" placeholder="coloque o valor do etanol"
+                                id="v1" maxlength="5" required />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="numero2">Coloque o valor da Gasolina</label>
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">R$</div>
+                            <input type="text" name="v2" class="form-control" placeholder="coloque o valor da gasolina"
+                                id="v2" maxlength="5" required />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <span style="font-size: 24px; color:green" id="diferenca"></span>
+                    </div>
+                    <div class="form-group">
+                        <span style="font-size: 24px; color:green" id="resultado"></span>
+                    </div>
+                    <button id="send" class="btn btn-outline-info" type="submit" value="ok">Calcular</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+    <script type="text/javascript">
+        $("#v1, #v2").mask("0,000");
+    </script>
+    <script src="scripts.js" defer></script>
+
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+mark {
+    background: yellow;
+  }
+  
+  /* mark.current {
+    background: orange;
+  } */
+
+#h1principal{
+    text-align: center;
+}
+
+#h2center{
+    text-align: center;
+    color: darkgray;
+}
+::-webkit-input-placeholder { /* Edge */
+    color: red;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: red;
+  }
+  
+  ::placeholder {
+    color: red;
+  }
+
+/* @import url('https://fonts.googleapis.com/css?family=Lato;300,400,700|PT++Mono');
+
+:root {
+    --primary-color: lightcoral;
+    --secondary-color: DimGrey;
+    --terciary-color: Gainsboro;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-size: 15px;
+    font-family: Lato, sans-serif;
+}
+
+#container {
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    border-radius: 20px;
+}
+
+.title{
+    background: var(--terciary-color);
+    color: var(--secondary-color);
+    padding: 20px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+.tipsForm {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formInput {
+    background: var(--terciary-color);
+    width: 40px;
+    padding: 5px 5px 8px 8px;
+}
+
+.formInput:focus {
+    border: 2px solid var(--primary-color);
+    outline: none;
+}
+
+.formSelect {
+    background: var(--terciary-color);
+    width: 180px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.formSubmit {
+    background: var(--primary-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+.formSubmit:hover {
+    background: #FFFFFF;
+    color: var(--primary-color);
+}
+
+#totalTip {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+} */
