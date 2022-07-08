@@ -21,4 +21,5 @@ function criptografar($sentenca){
 
 
 //var_dump(criptografar($frase));
+echo "<br>";
 echo criptografar($frase);
